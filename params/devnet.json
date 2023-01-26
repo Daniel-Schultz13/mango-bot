@@ -1,0 +1,21 @@
+{
+  "group": "devnet.2",
+  "mangoAccountName": "dev5",
+  "mangoAccountPubkey": "74BTnGahdeGNbJbNBSovAGkHaAyQqwYicvB2Gk8Vz3KL",
+  "interval": 3000,
+  "tif": 10,
+  "batch": 2,
+  "assets": {
+   
+    "SOL": {
+      "perp": {
+        "sizePerc": 0.05,
+        "leanCoeff": 0.0005,
+        "bias": 0.0,
+        "requoteThresh": 0.0002,
+        "takeSpammers": true,
+        "spammerCharge": 2
+      }
+    }
+  }
+}
